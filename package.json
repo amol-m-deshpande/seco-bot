@@ -1,0 +1,28 @@
+{
+  "name": "seco-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel-node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amol-m-deshpande/seco-bot.git"
+  },
+  "author": "amoldeshpande",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amol-m-deshpande/seco-bot/issues"
+  },
+  "homepage": "https://github.com/amol-m-deshpande/seco-bot#readme",
+  "dependencies": {
+    "@babel/core": "^7.17.5",
+    "@babel/node": "^7.16.8",
+    "@babel/preset-env": "^7.16.11",
+    "axios": "^0.26.0",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3"
+  }
+}
